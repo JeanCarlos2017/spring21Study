@@ -2,7 +2,6 @@ package org.study.calculadora;
 
 import lombok.Getter;
 
-@Getter
 public enum OperacoesEnum {
 
     SOMA("soma"),
@@ -11,7 +10,9 @@ public enum OperacoesEnum {
 
     SUBTRACAO("subtracao"),
 
-    DIVISAO("divisao");
+    DIVISAO("divisao"),
+
+    INVALIDO("invalido");
 
     private final String operacao;
 
@@ -24,7 +25,7 @@ public enum OperacoesEnum {
                 return operacao;
             }
         }
-        throw new IllegalArgumentException("Turno inválido: " + texto);
+        return INVALIDO;
     }
 
 
