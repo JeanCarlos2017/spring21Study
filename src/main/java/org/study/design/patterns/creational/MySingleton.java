@@ -13,14 +13,16 @@ public class MySingleton {
     }
 
     public static MySingleton getInstance() {
-        if (Objects.isNull(instance)) {
+        // o uso de variáveis local aumenta a performance
+        MySingleton result = instance;
+        if (Objects.isNull(result)) {
             //faz uso do syncronized para evitar que threads concorrentes não crie instâncias diferentes
             synchronized (MySingleton.class) {
-                if (Objects.isNull(instance)) {
-                    instance = new MySingleton();
+                if (Objects.isNull(result)) {
+                    result = instance= new MySingleton();
                 }
             }
         }
-        return instance;
+        return result;
     }
 }

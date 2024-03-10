@@ -2,7 +2,6 @@ package org.study.design.patterns.creational;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -35,6 +34,6 @@ public class MySingletonTest {
 
         // Aguarda a conclusão de todas as threads
         executorService.shutdown();
-        executorService.awaitTermination(1, TimeUnit.MINUTES);
+        executorService.awaitTermination(1, TimeUnit.MILLISECONDS);
     }
 }
