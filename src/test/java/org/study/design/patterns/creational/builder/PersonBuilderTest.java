@@ -1,7 +1,6 @@
 package org.study.design.patterns.creational.builder;
 
 import org.junit.jupiter.api.Test;
-import org.study.design.patterns.creational.builder.PersonWithBuilder;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;

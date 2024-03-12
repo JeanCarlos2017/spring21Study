@@ -18,7 +18,7 @@ public class MySingleton {
         if (Objects.isNull(result)) {
             //faz uso do syncronized para evitar que threads concorrentes não crie instâncias diferentes
             synchronized (MySingleton.class) {
-                if (Objects.isNull(result)) {
+                if (Objects.isNull(instance)) {
                     result = instance= new MySingleton();
                 }
             }

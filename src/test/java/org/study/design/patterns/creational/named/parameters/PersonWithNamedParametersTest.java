@@ -1,7 +1,6 @@
 package org.study.design.patterns.creational.named.parameters;
 
 import org.junit.jupiter.api.Test;
-import org.study.design.patterns.creational.named.parameters.PersonWithNamedParameters;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;

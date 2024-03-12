@@ -1,14 +1,12 @@
 package org.study.design.patterns.creational.singleton;
 
 import org.junit.jupiter.api.Test;
-import org.study.design.patterns.creational.singleton.MySingleton;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class MySingletonTest {
     @Test
@@ -16,7 +14,7 @@ public class MySingletonTest {
         MySingleton mySingletonOne= MySingleton.getInstance();
         MySingleton mySingletonTwo= MySingleton.getInstance();
 
-        assertTrue(mySingletonOne.equals(mySingletonTwo));
+        assertEquals(mySingletonOne, mySingletonTwo);
     }
 
     @Test
