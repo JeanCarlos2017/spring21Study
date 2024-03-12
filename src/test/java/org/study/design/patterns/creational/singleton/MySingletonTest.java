@@ -1,6 +1,7 @@
-package org.study.design.patterns.creational;
+package org.study.design.patterns.creational.singleton;
 
 import org.junit.jupiter.api.Test;
+import org.study.design.patterns.creational.singleton.MySingleton;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

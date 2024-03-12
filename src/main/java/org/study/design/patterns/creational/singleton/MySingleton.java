@@ -1,4 +1,4 @@
-package org.study.design.patterns.creational;
+package org.study.design.patterns.creational.singleton;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package org.study.design.patterns.creational;
+package org.study.design.patterns.creational.builder;
 
 import lombok.Getter;
 
