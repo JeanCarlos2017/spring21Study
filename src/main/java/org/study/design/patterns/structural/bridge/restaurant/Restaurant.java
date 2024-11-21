@@ -19,7 +19,5 @@ public abstract  class Restaurant {
         this.pizza = pizza;
     }
 
-    public void message(){
-        log.info("Restaurant {} is ready!", name);
-    }
+    public void message(){ }
 }
