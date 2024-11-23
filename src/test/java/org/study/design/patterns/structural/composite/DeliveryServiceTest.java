@@ -1,12 +1,10 @@
-package org.study.design.patterns.composite;
+package org.study.design.patterns.structural.composite;
 
 import org.junit.jupiter.api.Test;
-import org.study.design.patterns.structural.composite.CompositeBox;
-import org.study.design.patterns.structural.composite.DeliveryService;
 import org.study.design.patterns.structural.composite.products.Book;
 import org.study.design.patterns.structural.composite.products.VideoGame;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class DeliveryServiceTest {
 
