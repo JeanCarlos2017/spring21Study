@@ -1,10 +1,10 @@
 package org.study.design.patterns.composite;
 
 import org.junit.jupiter.api.Test;
-import org.study.design.patterns.structural.composite.composite.CompositeBox;
-import org.study.design.patterns.structural.composite.composite.DeliveryService;
-import org.study.design.patterns.structural.composite.composite.products.Book;
-import org.study.design.patterns.structural.composite.composite.products.VideoGame;
+import org.study.design.patterns.structural.composite.CompositeBox;
+import org.study.design.patterns.structural.composite.DeliveryService;
+import org.study.design.patterns.structural.composite.products.Book;
+import org.study.design.patterns.structural.composite.products.VideoGame;
 
 import static org.junit.jupiter.api.Assertions.*;
 
