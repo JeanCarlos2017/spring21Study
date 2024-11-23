@@ -1,4 +1,4 @@
-package org.study.design.patterns.structural.composite.composite;
+package org.study.design.patterns.structural.composite;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,7 +1,7 @@
-package org.study.design.patterns.structural.composite.composite.products;
+package org.study.design.patterns.structural.composite.products;
 
 import lombok.Data;
-import org.study.design.patterns.structural.composite.composite.Box;
+import org.study.design.patterns.structural.composite.Box;
 
 @Data
 public abstract class Product implements Box {

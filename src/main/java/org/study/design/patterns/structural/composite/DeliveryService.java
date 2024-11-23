@@ -1,4 +1,4 @@
-package org.study.design.patterns.structural.composite.composite;
+package org.study.design.patterns.structural.composite;
 
 public class DeliveryService {
 

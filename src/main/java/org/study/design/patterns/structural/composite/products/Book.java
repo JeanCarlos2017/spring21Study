@@ -1,4 +1,4 @@
-package org.study.design.patterns.structural.composite.composite.products;
+package org.study.design.patterns.structural.composite.products;
 
 public class Book extends Product {
 
