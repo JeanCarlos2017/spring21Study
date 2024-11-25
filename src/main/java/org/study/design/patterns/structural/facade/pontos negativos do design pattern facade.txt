@@ -1,0 +1,19 @@
+quais são os problemas de usar facade ?
+O padrão de projeto Facade é bastante útil para simplificar a interação com sistemas complexos, mas como qualquer padrão de design, ele tem algumas desvantagens que você deve considerar:
+
+1. Ocultação Excessiva de Funcionalidade:
+ A classe Facade pode ocultar detalhes importantes do sistema subjacente. Isso pode ser problemático se o usuário da Facade precisar de mais controle ou acesso às funcionalidades específicas das classes internas.
+
+2.Dependência Excessiva em Uma Única Classe:
+ Se muitas funcionalidades forem centralizadas em uma única classe Facade, isso pode criar um ponto único de falha. Se a Facade falhar ou se tornar muito complexa, todo o sistema pode ser afetado.
+
+3.Manutenção e Evolução:
+ À medida que o sistema subjacente evolui e novas funcionalidades são adicionadas, a classe Facade pode se tornar difícil de manter. Manter a Facade em sincronia com as mudanças das classes internas pode exigir um esforço considerável.
+
+4.Dificuldade de Testes Unitários:
+ Testar a classe Facade pode ser complicado, pois ela depende de várias outras classes. Isso pode tornar os testes unitários mais desafiadores e pode exigir a criação de mocks ou stubs para isolar a Facade.
+
+5.Potencial de Uso Indevido:
+ O uso inadequado da Facade pode levar a um design pobre, onde a Facade se torna um "super controller" que faz tudo, violando o princípio de responsabilidade única.
+
+Apesar dessas desvantagens, o padrão Facade é muito útil em muitos cenários, especialmente quando você deseja fornecer uma interface simples e unificada para um subsistema complexo. É importante avaliar cuidadosamente quando e como usar o padrão para garantir que ele traga mais benefícios do que desvantagens no seu contexto específico.
