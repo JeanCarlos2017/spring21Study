@@ -26,4 +26,14 @@ public class FakeHttpService {
     public CompletableFuture<List<Speaker>> retrieveSpeakersAsync() {
         return supplyAsync(() -> speakerList, delayedExecutor(1_000, TimeUnit.MILLISECONDS));
     }
+
+    @SneakyThrows
+    public Talk retrieveTalk(Speaker speaker) {
+        Thread.sleep(500);
+        return new Talk(speaker);
+    }
+
+    public CompletableFuture<Talk> retrieveTalkAsync(Speaker speaker) {
+        return supplyAsync(() -> new Talk(speaker), delayedExecutor(500, TimeUnit.MILLISECONDS));
+    }
 }
