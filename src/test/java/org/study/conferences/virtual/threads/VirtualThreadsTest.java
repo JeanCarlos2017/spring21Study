@@ -1,10 +1,8 @@
 package org.study.conferences.virtual.threads;
 
-import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
 
 import static java.lang.Thread.sleep;
